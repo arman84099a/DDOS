@@ -7,10 +7,10 @@ import datetime
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('6678837585:AAFwqvH7dEx8sZIY9tXhRuRI8CMNVwKZbIg')
+bot = telebot.TeleBot('7948017795:AAHF-E4ixeBImw5ZuUQEPjuN-pEdDM14sNs')
 
 # Admin user IDs
-admin_id = ["898630244"]
+admin_id = ["7573273095"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -247,7 +247,7 @@ def handle_bgmi(message):
         else:
             response = "🤦‍♂️𝙐𝙨𝙖𝙜𝙚: /𝙗𝙜𝙢𝙞 <𝙞𝙥> <𝙥𝙤𝙧𝙩> <𝙩𝙞𝙢𝙚_𝙨𝙚𝙘𝙤𝙣𝙙𝙨> \n\n🤷‍♀️𝙀𝙭𝙖𝙢𝙥𝙡𝙚  /𝙗𝙜𝙢𝙞 20.235.94.237 17870 180"  # Updated command syntax
     else:
-        response = "𝘼𝙘𝙘𝙚𝙨𝙨 𝙙𝙚𝙣𝙞𝙚𝙙\n𝙔𝙤𝙪 𝙖𝙧𝙚 𝙣𝙤𝙩 𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝙩𝙤 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝙗𝙤𝙩\n𝙠𝙞𝙣𝙙𝙡𝙮 𝘿𝙢 @DipXD 𝙏𝙤 𝙂𝙚𝙩 𝘼𝙘𝙘𝙚𝙨𝙨.."
+        response = "𝘼𝙘𝙘𝙚𝙨𝙨 𝙙𝙚𝙣𝙞𝙚𝙙\n𝙔𝙤𝙪 𝙖𝙧𝙚 𝙣𝙤𝙩 𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝙩𝙤 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝙗𝙤𝙩\n𝙠𝙞𝙣𝙙𝙡𝙮 𝘿𝙢 @Mr_ZaidXd 𝙏𝙤 𝙂𝙚𝙩 𝘼𝙘𝙘𝙚𝙨𝙨.."
 
     bot.reply_to(message, response)
 
@@ -326,7 +326,7 @@ Vip 🌟 :
 -> Concurrents Attack : 300
 
 Price List💸 :
- @DipXd
+ @Mr_ZaidXd
 '''
     bot.reply_to(message, response)
 
